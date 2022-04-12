@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1111700,
+    "groups_id": 0,
+    "name": "email",
+    "description": "is_vilain",
+    "preview_value": "",
+    "value": null,
+    "type": "number",
+    "tag": "{IS_VILAIN}"
+  },
+  {
+    "id": 1181499,
+    "groups_id": 0,
+    "name": "title",
+    "description": "nachname",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{NACHNAME}"
+  },
+  {
+    "id": 1181498,
+    "groups_id": 0,
+    "name": "vorname",
+    "description": "vorname",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{VORNAME}"
+  },
+  {
+    "id": 1181196,
+    "groups_id": 0,
+    "name": "anrede",
+    "description": "anrede",
+    "preview_value": "",
+    "value": null,
+    "type": "gender",
+    "tag": "{ANREDE}"
+  },
+  {
+    "id": 1181195,
+    "groups_id": 0,
+    "name": "company",
+    "description": "firma",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{FIRMA}"
+  },
+  {
+    "id": 1181194,
+    "groups_id": 0,
+    "name": "shop",
+    "description": "shopid",
+    "preview_value": "",
+    "value": null,
+    "type": "number",
+    "tag": "{SHOPID}"
+  },
+  {
+    "id": 1175163,
+    "groups_id": 0,
+    "name": "gender",
+    "description": "gender",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{GENDER}"
+  },
+  {
+    "id": 1124182,
+    "groups_id": 0,
+    "name": "country",
+    "description": "country",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{COUNTRY}"
+  },
+  {
+    "id": 1124181,
+    "groups_id": 0,
+    "name": "city",
+    "description": "city",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{CITY}"
+  },
+  {
+    "id": 1124180,
+    "groups_id": 0,
+    "name": "postal_number",
+    "description": "postal_number",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{POSTAL_NUMBER}"
+  },
+  {
+    "id": 1124179,
+    "groups_id": 0,
+    "name": "street",
+    "description": "street",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{STREET}"
+  },
+  {
+    "id": 1124178,
+    "groups_id": 0,
+    "name": "lastname",
+    "description": "lastname",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{LASTNAME}"
+  },
+  {
+    "id": 1124177,
+    "groups_id": 0,
+    "name": "firstname",
+    "description": "firstname",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{FIRSTNAME}"
+  },
+  {
+    "id": 1124176,
+    "groups_id": 0,
+    "name": "salutation",
+    "description": "salutation",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{SALUTATION}"
+  },
+  {
+    "id": 1124175,
+    "groups_id": 0,
+    "name": "store",
+    "description": "store",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{STORE}"
+  },
+  {
+    "id": 1111701,
+    "groups_id": 0,
+    "name": "is_batman",
+    "description": "is_batman",
+    "preview_value": "",
+    "value": null,
+    "type": "number",
+    "tag": "{IS_BATMAN}"
+  },
+  {
+    "id": 1186535,
+    "groups_id": 0,
+    "name": "test123",
+    "description": "test123",
+    "preview_value": "",
+    "value": null,
+    "type": "text",
+    "tag": "{TEST123}"
+  }
+]

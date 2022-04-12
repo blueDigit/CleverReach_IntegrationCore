@@ -1,0 +1,51 @@
+[
+  {
+    "id": "525154",
+    "name": "group1",
+    "rules": [
+      {
+        "operator": "AND",
+        "field": "tags",
+        "logic": "CONTAINS",
+        "condition": "gr_group1"
+      }
+    ]
+  },
+  {
+    "id": "525161",
+    "name": "group1_test",
+    "rules": [
+      {
+        "operator": "AND",
+        "field": "tags",
+        "logic": "CONTAINS",
+        "condition": "gr_group1_test"
+      },
+      {
+        "operator": "AND",
+        "field": "tags",
+        "logic": "CONTAINS",
+        "condition": "gr_group1_test1"
+      },
+      {
+        "operator": "AND",
+        "field": "tags",
+        "logic": "CONTAINS",
+        "condition": "gr_group1_test2"
+      }
+    ]
+  },
+  {
+    "id": "525162",
+    "name": "group3",
+    "rules": [
+      {
+        "operator": "",
+        "field": "(",
+        "logic": "",
+        "condition": "group3"
+
+      }
+    ]
+  }
+]

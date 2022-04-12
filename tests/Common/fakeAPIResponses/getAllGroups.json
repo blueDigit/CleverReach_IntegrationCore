@@ -1,0 +1,262 @@
+[
+  {
+    "id": "1297140",
+    "name": "! List",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1488363230,
+    "last_mailing": 0,
+    "last_changed": 1488555650
+  },
+  {
+    "id": "1242700",
+    "name": "20.12TestList",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1482246543,
+    "last_mailing": 0,
+    "last_changed": 1489073224
+  },
+  {
+    "id": "1252116",
+    "name": "2017 test list",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1483961155,
+    "last_mailing": 0,
+    "last_changed": 1493300280
+  },
+  {
+    "id": "1221131",
+    "name": "ListTest",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1480159525,
+    "last_mailing": 0,
+    "last_changed": 1493296185
+  },
+  {
+    "id": "1232118",
+    "name": "CampaignTestList2",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1481189118,
+    "last_mailing": 1481189481,
+    "last_changed": 1483968168
+  },
+  {
+    "id": "1294404",
+    "name": "DMVTest",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1487759859,
+    "last_mailing": 0,
+    "last_changed": 1488553670
+  },
+  {
+    "id": "1211279",
+    "name": "General",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1479415083,
+    "last_mailing": 1481815040,
+    "last_changed": 1493302533
+  },
+  {
+    "id": "1356901",
+    "name": "Goran Test",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1505824480,
+    "last_mailing": 0,
+    "last_changed": 1505832867
+  },
+  {
+    "id": "1363473",
+    "name": "Ivan test1",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1510224220,
+    "last_mailing": 0,
+    "last_changed": 1510224220
+  },
+  {
+    "id": "1333117",
+    "name": "Lex office",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1493900990,
+    "last_mailing": 0,
+    "last_changed": 1493906872
+  },
+  {
+    "id": "1245359",
+    "name": "LightSpeed test list",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1482758540,
+    "last_mailing": 0,
+    "last_changed": 1510236903
+  },
+  {
+    "id": "1282098",
+    "name": "New List (Test)",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1486377049,
+    "last_mailing": 1487092105,
+    "last_changed": 1488298726
+  },
+  {
+    "id": "1282169",
+    "name": "New York List (Test)",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1486385350,
+    "last_mailing": 1487088263,
+    "last_changed": 1493124431
+  },
+  {
+    "id": "1282991",
+    "name": "NewList",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1486454224,
+    "last_mailing": 0,
+    "last_changed": 1493199433
+  },
+  {
+    "id": "1283209",
+    "name": "NewTestList222",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1486464789,
+    "last_mailing": 0,
+    "last_changed": 1486464789
+  },
+  {
+    "id": "1308456",
+    "name": "Shop 1.7",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1489589992,
+    "last_mailing": 1489653557,
+    "last_changed": 1509051783
+  },
+  {
+    "id": "1351591",
+    "name": "ShopWare53",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1502786414,
+    "last_mailing": 0,
+    "last_changed": 1502786414
+  },
+  {
+    "id": "1221567",
+    "name": "Test list2",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1480321768,
+    "last_mailing": 1480936280,
+    "last_changed": 1503319925
+  },
+  {
+    "id": "1334836",
+    "name": "final test",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1494320925,
+    "last_mailing": 0,
+    "last_changed": 1494320926
+  },
+  {
+    "id": "1319660",
+    "name": "import list",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1491209389,
+    "last_mailing": 0,
+    "last_changed": 1491209389
+  },
+  {
+    "id": "1349133",
+    "name": "b ShopWare B2B",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1501144270,
+    "last_mailing": 0,
+    "last_changed": 1504265295
+  },
+  {
+    "id": "1349132",
+    "name": "b ShopWare Default",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1501144164,
+    "last_mailing": 0,
+    "last_changed": 1504277525
+  },
+  {
+    "id": "1349135",
+    "name": "b ShopWare Interest",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1501144347,
+    "last_mailing": 0,
+    "last_changed": 1504273723
+  },
+  {
+    "id": "1349258",
+    "name": "b ShopWare bane",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1501229482,
+    "last_mailing": 0,
+    "last_changed": 1501841330
+  },
+  {
+    "id": "1306819",
+    "name": "name_of_the_wind",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1489151861,
+    "last_mailing": 0,
+    "last_changed": 1489506157
+  },
+  {
+    "id": "1277103",
+    "name": "test case list",
+    "locked": false,
+    "backup": true,
+    "receiver_info": "",
+    "stamp": 1485871808,
+    "last_mailing": 1486373596,
+    "last_changed": 1486373462
+  }
+]
