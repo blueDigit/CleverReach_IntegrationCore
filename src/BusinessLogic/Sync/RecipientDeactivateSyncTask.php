@@ -45,7 +45,6 @@ class RecipientDeactivateSyncTask extends RecipientStatusUpdateSyncTask
                 $specialTags->markDeleted();
                 $recipient->getTags()->add($specialTags);
                 $recipient->setNewsletterSubscription(false);
-                $recipient->setActive(false);
             }
 
             $recipients[] = $recipient;

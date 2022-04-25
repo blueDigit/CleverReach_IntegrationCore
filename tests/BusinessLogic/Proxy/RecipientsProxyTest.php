@@ -384,8 +384,7 @@ class RecipientsProxyTest extends ProxyTestBase
         for ($i = 0; $i < $numberOfRecipientsForTest; $i++) {
             $recipient = new Recipient($i . 'test@test.com');
             $recipient->setZip('11000');
-            $recipient->setActive($shouldRecipientBeActive);
-            $recipient->setActivated(date_create_from_format('m/d/Y', '1/10/2014'));
+            $recipient->setActivated($shouldRecipientBeActive ? date_create_from_format('m/d/Y', '1/10/2014') : null);
             $recipient->setAttributes(array('testAttribute'=> 'attr'));
             $recipient->setRegistered(date_create_from_format('m/d/Y', '1/10/2014'));
             $recipient->setBirthday(date_create_from_format('m/d/Y', '1/10/2014'));

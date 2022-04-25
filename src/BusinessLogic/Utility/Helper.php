@@ -84,7 +84,6 @@ class Helper
         $recipientEntity->setLanguage(self::getValueIfNotEmpty('language', $attributes));
         $recipientEntity->setNewsletterSubscription(self::getNewsletterStatus($attributes));
         $recipientEntity->setSource(self::getValueIfNotEmpty('source', $source));
-        $recipientEntity->setActive((bool)$source['active']);
 
         self::setTimestamps($source, $recipientEntity);
 

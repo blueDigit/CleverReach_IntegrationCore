@@ -268,14 +268,8 @@ class RecipientSyncTask extends BaseSyncTask
                 $recipient,
                 $allTags->diff($recipient->getTags())->merge($this->tagsToDelete),
                 $this->includeOrders,
-                // Send activated time always
                 true,
-                // Never send deactivated timestamp, integrations should deactivate
-                // recipients only by setting activated to 0. Deactivated timestamp
-                // should be left for recipients deactivation on CleverReach
-                // system. Once recipient is deactivated with deactivated timestamp
-                // integrations can't reactivate them!
-                false
+                true
             );
         }
 

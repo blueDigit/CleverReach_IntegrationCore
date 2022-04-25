@@ -861,12 +861,7 @@ class Proxy implements ProxyInterface
             );
 
             if ($recipientDTO->shouldActivatedFieldBeSent()) {
-                // We use activated timestamp for handling both activation and
-                // deactivation. When activated timestamp is set to 0, recipient
-                // will be inactive in CleverReach. Setting activated to value > 0
-                // will reactivate recipient in CleverReach but only if recipient
-                // was not deactivated withing CleverReach system.
-                if ($recipientEntity->isActive()) {
+                if (null !== $recipientEntity->getActivated()) {
                     $formattedRecipient['activated'] = $recipientEntity->getActivated()->getTimestamp();
                 } else {
                     $formattedRecipient['activated'] = 0;
@@ -874,7 +869,14 @@ class Proxy implements ProxyInterface
             }
 
             if ($recipientDTO->shouldDeactivatedFieldBeSent()) {
-                $formattedRecipient['deactivated'] = $recipientEntity->getDeactivated()->getTimestamp();
+                if (
+                    null !== $recipientEntity->getActivated()
+                    && null !== $recipientEntity->getDeactivated()
+                ) {
+                    $formattedRecipient['deactivated'] = $recipientEntity->getDeactivated()->getTimestamp();
+                } else {
+                    $formattedRecipient['deactivated'] = 0;
+                }
             }
 
             if ($recipientDTO->isIncludeOrdersActivated()) {

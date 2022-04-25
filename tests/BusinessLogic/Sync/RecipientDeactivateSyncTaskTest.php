@@ -14,7 +14,6 @@ class RecipientDeactivateSyncTaskTest extends RecipientStatusUpdateSyncTaskTest
         foreach ($this->proxy->deactivatedRecipients as $data) {
             /** @var \CleverReach\BusinessLogic\Entity\TagCollection $tags */
             $tags = $data['tags'];
-            self::assertEquals(false, $data['active'], 'Recipient should be deactivated!');
             self::assertEquals(false, $data['newsletter'], 'Recipient newsletter status should be set to false!');
             self::assertEquals(
                 false,

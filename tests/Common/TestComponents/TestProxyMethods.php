@@ -250,7 +250,6 @@ class TestProxyMethods extends Proxy
     {
         foreach ($recipients as $recipient) {
             $this->deactivatedRecipients[$recipient->getEmail()] = array(
-                'active' => $recipient->isActive(),
                 'newsletter' => $recipient->getNewsletterSubscription(),
                 'tags' => $recipient->getTags(),
             );

@@ -18,12 +18,6 @@ class Recipient
      */
     private $email;
     /**
-     * Recipient status.
-     *
-     * @var bool
-     */
-    private $isActive = false;
-    /**
      * Recipient activation datetime.
      *
      * @var \DateTime
@@ -189,27 +183,6 @@ class Recipient
     }
 
     /**
-     * Set recipient status.
-     *
-     * @param bool $isActive If true, recipient will active, otherwise inactive.
-     */
-    public function setActive($isActive)
-    {
-        $this->isActive = (bool)$isActive;
-    }
-
-    /**
-     * Get recipient status.
-     *
-     * @return bool
-     *   If true recipient is active, otherwise inactive. Default is false.
-     */
-    public function isActive()
-    {
-        return $this->isActive;
-    }
-
-    /**
      * Get recipient activation datetime.
      *
      * @return \DateTime
@@ -217,20 +190,11 @@ class Recipient
      */
     public function getActivated()
     {
-        $timeProvider = new TimeProvider();
-
-        return $this->activated !== null ? $this->activated : $timeProvider->getCurrentLocalTime();
+        return $this->activated;
     }
 
     /**
      * Set recipient activation datetime.
-     *
-     * Disclaimer:
-     * Activated timestamp is used for handling both activation and deactivation.
-     * When activated timestamp is set to 0, recipient will be inactive in
-     * CleverReach. Setting activated to value > 0 will reactivate recipient in
-     * CleverReach but only if recipient was not deactivated withing CleverReach
-     * system.
      *
      * @param \DateTime $activated
      *   Datetime when recipient is activated in the source system.
@@ -269,21 +233,11 @@ class Recipient
      */
     public function getDeactivated()
     {
-        $timeProvider = new TimeProvider();
-
-        return $this->deactivated !== null ? $this->deactivated : $timeProvider->getCurrentLocalTime();
+        return $this->deactivated;
     }
 
     /**
      * Set recipient deactivated datetime.
-     *
-     * Disclaimer:
-     * Activated timestamp is used for handling both activation and deactivation.
-     * When activated timestamp is set to 0, recipient will be inactive in
-     * CleverReach. Setting activated to value > 0 will reactivate recipient in
-     * CleverReach but only if recipient was not deactivated withing CleverReach
-     * system.
-     * This field should not be set by integration!
      *
      * @param \DateTime $deactivated Datetime when recipient is deactivated in the source system.
      */
